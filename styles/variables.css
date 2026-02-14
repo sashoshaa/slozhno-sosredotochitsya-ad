@@ -1,21 +1,31 @@
-  :root {
-    --accent-color: #FF0070;
-    --text-main-color: #F1B2CE;
-    --button-list-color: #FF0070;
-    --button-list-hover-color: rgba(255, 0, 112, 0.40);
-    --font-family: 'IBM Plex Mono', monospace;
-    --text-line-height: line-height: 23.4px;
-    --subtitle-color: #FF0070;
-    --corner-color: #FF0070;
-    --rec-element-color: #FF0070;
-    --text-font-size: 18px;
-    --title-decor: #FF0070;
-    --background-color: #000028;
-    --heading-text-color: #000028;
-    --header-color: #db00ff;
-    --footer-color: #db00ff;
-    --unique-decoration-color: #F1B2CE;
-    --shadow-color: #ff0070;
-    --small-gap: 12px;
-    --mid-gap: 23px;
-  }
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+
+:root {
+  /* цветовые переменные */
+  --accent-color: #FF0070;
+  --button-hover-outline: rgba(255, 0, 112, 0.4);
+  --header-color: rgba(219, 0, 255, 1);
+  --shadow-color: #FF0070;
+  --title-decor-bg-color: rgba(255, 0, 112, 1);
+  --title-decor-text-color: rgba(0, 0, 40, 1);
+  --bg-image: url("../images/cover-image-dark.png");
+  --not-accent-color: rgba(241, 178, 206, 1);
+  --link-shadow-color: #ff0070;
+  --bg-color: #000028;
+
+  /* перемнные размеров */
+  --padding: 10px;
+  --vertical-padding: 40px;
+  --sections-gap: 50px;
+  --articles-gap: 20px;
+
+  /* переменные шрифтов */
+  --main-font: 'IBM Plex Mono', monospace;
+  --header-weight: 700;
+  --text-weight: 400;
+  --font-size: 18px;
+  --line-height: 130%;
+}
